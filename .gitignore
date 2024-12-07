@@ -1,0 +1,71 @@
+# Python Bytecode Files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+env/
+venv/
+*.env
+
+# Dataset Files
+datasets/
+*.csv
+*.json
+*.h5
+*.zip
+*.tar
+*.gz
+
+# Model Checkpoints and Weights
+*.h5
+*.ckpt
+*.pb
+*.onnx
+*.pt
+*.tflite
+models/
+
+# Logs
+*.log
+logs/
+tensorboard/
+
+# Images and Outputs
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+outputs/
+results/
+predictions/
+
+# IDE Specific Files
+.vscode/
+.idea/
+*.sublime-workspace
+*.code-workspace
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Temporary/System Files
+*.bak
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Compiled Libraries
+build/
+dist/
+*.egg-info/
+*.dll
+*.dylib
+*.lib
+
+# YOLO-Specific Files (if using YOLO)
+runs/
+exp*/
